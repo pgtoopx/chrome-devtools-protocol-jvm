@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.pgtoopx</groupId>
   <artifactId>chrome-devtools-protocol-jvm</artifactId>
-  <version>0.1</version>
+  <version>1.0</version>
 
   <name>chrome-devtools-protocol</name>
   <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
@@ -57,6 +57,18 @@
       <version>2.4</version>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
+      </url>
+    </repository>
+  </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
