@@ -7,7 +7,17 @@
   <version>0.2-SNAPSHOT</version>
 
   <name>chrome-devtools-protocol</name>
+  <description>A web Socket to Chrome devtools protocol for java, and some build functions to use it</description>
   <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
+
+  <developers>
+    <developer>
+      <name>Eduardo Salinas</name>
+      <email>eduardoinbrand@gmail.com</email>
+      <organization>Pgtoopx</organization>
+      <organizationUrl>https://github.com/pgtoopx</organizationUrl>
+    </developer>
+  </developers>
 
   <licenses>
     <license>
