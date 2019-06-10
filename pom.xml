@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.pgtoopx</groupId>
   <artifactId>chrome-devtools-protocol-jvm</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.1</version>
 
   <name>chrome-devtools-protocol</name>
   <description>A web Socket to Chrome devtools protocol for java, and some build functions to use it</description>
@@ -83,7 +83,7 @@
     <connection>scm:git:git://github.com/pgtoopx/chrome-devtools-protocol-jvm.git</connection>
     <developerConnection>scm:git:git@github.com:pgtoopx/chrome-devtools-protol.jvm.git</developerConnection>
     <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
-    <tag>chrome-devtools-protocol-jvm-0.1</tag>
+    <tag>chrome-devtools-protocol-jvm-0.1.1</tag>
   </scm>
 
   <build>
